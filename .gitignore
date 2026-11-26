@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python auto-generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and results
+data/
+results/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
