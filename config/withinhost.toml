@@ -1,0 +1,31 @@
+# config/withinhost.toml
+
+[variant.prealpha]
+vl_peak = 8.14      # values taken from Singanayagam et al. (2022)
+growth_rate = 3.24
+decline_rate = 0.69
+floor = 0.0     # assumes that infection starts at floor
+
+[variant.alpha]
+vl_peak = 8.14
+growth_rate = 3.13
+decline_rate = 0.82
+floor = 0.0
+
+[variant.delta_unvac]
+vl_peak = 8.14
+growth_rate = 2.81
+decline_rate = 0.79
+floor = 0.0
+
+[variant.delta_vac]
+vl_peak = 8.14
+growth_rate = 2.69
+decline_rate = 0.95
+floor = 0.0
+
+[transmission]
+target_sar = 0.30   # placeholder value
+
+[run]
+seed = 1234
