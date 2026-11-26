@@ -1,0 +1,4 @@
+# config/run.toml
+
+[seed]
+seed = 1234

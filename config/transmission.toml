@@ -1,0 +1,4 @@
+# transmission.toml
+
+[transmission]
+target_sar = 0.30   # placeholder value 
